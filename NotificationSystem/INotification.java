@@ -1,0 +1,4 @@
+interface INotification{
+    notify();
+
+}
