@@ -1,5 +1,5 @@
 public class Bike extends  Vehicle{
     public Bike(String vehicleNumber) {
-        super(vehicleNumber,VehicleType.bike);
+        super(vehicleNumber,VehicleType.BIKE);
     }
 }

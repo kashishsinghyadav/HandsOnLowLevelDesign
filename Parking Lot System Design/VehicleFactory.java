@@ -1,17 +1,11 @@
 public class VehicleFactory {
-    public static Vehicle creatVehicle(String veh){
-        if(veh.equals("car")){
-            return new Car("548651");
-    }
-    else if(veh.equals("bike")){
-        return new Bike("74251");
-    }
-    else if(veh.equals("truck")){
-        return new Truck("14651");
-    }
-    else{
-        return null;
-    }
+    public static Vehicle creatVehicle(String type,String veh){
+        return switch (type.toUpperCase()) {
+            case "CAR" -> new Car(veh);
+            case "BIKE" -> new Bike(veh);
+            case "TRUCK" -> new Truck(veh);
+            default -> null;
+        };
 
 
     }

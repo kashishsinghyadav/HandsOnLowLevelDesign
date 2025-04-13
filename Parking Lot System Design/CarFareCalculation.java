@@ -7,3 +7,4 @@ public class CarFareCalculation implements FareCalculation{
         return 20.0*duration;
     }
 }
+

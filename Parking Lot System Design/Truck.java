@@ -1,5 +1,5 @@
 public class Truck extends  Vehicle{
     public Truck(String vehicleNumber) {
-   super(vehicleNumber, VehicleType.truck);
+   super(vehicleNumber, VehicleType.TRUCK);
     }
 }
