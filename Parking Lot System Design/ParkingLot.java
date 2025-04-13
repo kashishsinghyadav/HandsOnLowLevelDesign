@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+
 public class ParkingLot {
     private static ParkingLot instance;
     private List<ParkingFloor> floors = new ArrayList<>();
