@@ -3,7 +3,7 @@ public abstract class ParkingSpot {
     protected Spottype type;
     protected String id;
     protected boolean isAvailable;
-
+ 
     public ParkingSpot(String id, Spottype type) {
         this.id = id;
         this.type = type;
