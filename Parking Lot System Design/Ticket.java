@@ -1,6 +1,6 @@
 import java.util.Date;
 import java.util.UUID;
-
+ 
 public class Ticket {
     private final String ticketId;
     private final Vehicle vehicle;
