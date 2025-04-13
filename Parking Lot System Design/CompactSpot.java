@@ -4,6 +4,6 @@ public class CompactSpot extends  ParkingSpot {
         super(id, Spottype.COMPACT);
     }
 
-  
+   
     
 }
