@@ -20,8 +20,8 @@ Design a vending machine system that allows users to purchase products by insert
 - Ensure that the user interface is intuitive for both customers and administrators.
 
 ## Additional Considerations
-
+ 
 - Implement appropriate error handling for invalid inputs and system failures.
 - Design the system to be extensible for future enhancements, such as adding new product categories or payment methods.
 
-
+ 
