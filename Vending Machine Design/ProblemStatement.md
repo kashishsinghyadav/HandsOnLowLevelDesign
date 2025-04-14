@@ -1,6 +1,6 @@
 # Vending Machine System Design
 
-## Problem Statement
+## Problem Statement 
 
 Design a vending machine system that allows users to purchase products by inserting coins and selecting items. The system should support the following functionalities:
 
