@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Venmain {
     public static void main(String[] args) {
         Vedingcontext cont = new Vedingcontext();
-        Inventory invent = new Inventory();
+        Inventory invent = new Inventory(); 
         invent.addProduct("Drink", 15);
         invent.addProduct("Chocolate", 20);
         invent.printInventory();
