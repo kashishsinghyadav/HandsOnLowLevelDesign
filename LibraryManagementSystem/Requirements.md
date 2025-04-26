@@ -44,6 +44,7 @@ Design and implement a **Library Management System** with the following requirem
 
 ## 📉 UML Diagram (Core Design)
 
+![image](https://github.com/user-attachments/assets/8ed3f9ee-9df4-4a61-a3fc-bfe37817dff5)
 
 
 ---
