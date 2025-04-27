@@ -1,26 +1,41 @@
-public abstract class Book {
-    private String bookId;
-    private String bookName;
-    private int bookQuantity;
+import java.util.ArrayList;
+import java.util.List;
 
-    public Book(String bookId, String bookName, int bookQuantity) {
+public abstract class Book {
+    protected String bookId;
+    protected String title;
+    protected List<BookCopy> copies;
+
+    public Book(String bookId, String title) {
         this.bookId = bookId;
-        this.bookName = bookName;
-        this.bookQuantity = bookQuantity;
+        this.title = title;
+        this.copies = new ArrayList<>();
     }
 
     public String getBookId() {
         return bookId;
     }
 
-    public String getBookName() {
-        return bookName;
+    public String getTitle() {
+        return title;
     }
 
-    public int getBookQuantity() {
-        return bookQuantity;
+    public List<BookCopy> getCopies() {
+        return copies;
     }
 
-    
+    public void addCopy(BookCopy copy) {
+        copies.add(copy);
+    }
 
+    public BookCopy getAvailableCopy() {
+        for (BookCopy copy : copies) {
+            if (!copy.isIssued()) {
+                return copy;
+            }
+        }
+        return null;
+    }
+
+    public abstract String getCategory();
 }
