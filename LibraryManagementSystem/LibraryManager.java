@@ -8,7 +8,7 @@ public class LibraryManager {
     private static final int FINE_PER_DAY = 10;
 
     public void addBook(Book book) {
-        books.put(book.getBookId(), book);
+        books.put(book.getBookId(), book); 
     }
 
     public void addStudent(Student student) {
