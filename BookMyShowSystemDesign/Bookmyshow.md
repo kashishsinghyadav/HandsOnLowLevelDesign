@@ -52,15 +52,6 @@ Design a simplified **BookMyShow-like system** that allows users to:
 
 ---
 
-## 🛠️ Design Constraints
-- Focus mainly on **core movie booking flow**.
-- Implement using **clean OOP design** principles.
-- Use design patterns like **Factory**, **Facade**, or **Observer** where suitable.
-- Assume **in-memory storage** (no need for real databases).
-- Skip complex authentication (assume users are logged in).
-
----
-
 ## ✨ Optional Enhancements
 - Notifications on booking confirmation (email/SMS simulation).
 - Different pricing for different seat types.
@@ -92,21 +83,6 @@ Design a simplified **BookMyShow-like system** that allows users to:
 - Full Code (OOP structure)
 - Basic flow for movie selection → seat booking → payment → booking confirmation
 - (Optional) Advanced features like notifications and cancellation
-
----
-
-## 🧠 Design Patterns Suggestions
-- **Factory Pattern**: Create different types of Seats or Movies.
-- **Facade Pattern**: Provide a simple interface to users for browsing, booking, paying.
-- **Observer Pattern**: Notify users on booking confirmation or upcoming shows.
-- **Strategy Pattern**: If supporting multiple payment methods dynamically.
-
----
-
-## 📑 Important Notes
-- Keep code **modular and clean**.
-- Focus on **extensibility** (easy to add new features).
-- Handle basic **edge cases** (seat already booked, payment failure).
 
 ---
 
