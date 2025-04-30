@@ -78,12 +78,6 @@ Design a simplified **BookMyShow-like system** that allows users to:
 
 ---
 
-## 🔥 Deliverables
-- Class Diagram (UML)
-- Full Code (OOP structure)
-- Basic flow for movie selection → seat booking → payment → booking confirmation
-- (Optional) Advanced features like notifications and cancellation
-
 ---
 
 # 📈 Example User Journey
