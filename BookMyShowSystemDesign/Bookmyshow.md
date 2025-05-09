@@ -62,21 +62,7 @@ Design a simplified **BookMyShow-like system** that allows users to:
 
 ---
 
-## 📦 Suggested Core Classes
 
-| Class | Responsibility |
-|:------|:----------------|
-| User | Browse, select, book, and pay for tickets |
-| Admin | Add movies, theaters, screens, and shows |
-| Movie | Holds movie details (name, duration, etc.) |
-| Theater | Location, list of screens |
-| Screen | Physical screen in a theater |
-| Show | Represents a movie playing on a screen at a specific time |
-| Seat | Details about a single seat (type, status) |
-| Booking | Represents the booking made by a user |
-| Payment | Handles payment simulation |
-
----
 
 ---
 
