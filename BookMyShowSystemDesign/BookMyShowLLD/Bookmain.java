@@ -27,6 +27,16 @@ public class Bookmain{
         t1.addSeat(vip);
         t1.addSeat(balcony);
         t1.addSeat(regular);
+        Payment paymentMethod = new UpiPayment();
+        Notification notification = new Notification();
+        notification.addObserver(user);
+
+
+        FacadeClass bookingclass = new FacadeClass(notification);
+        
+        bookingclass.BookTicket(movie, t1, balcony);
+        bookingclass.makePayment(paymentMethod);
+
 
 
         
