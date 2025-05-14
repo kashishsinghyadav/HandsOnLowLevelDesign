@@ -1,4 +1,4 @@
-public class Seat {
+ public class Seat {
     private int seatId;
     private String seatType;
     private int totalSeat;
