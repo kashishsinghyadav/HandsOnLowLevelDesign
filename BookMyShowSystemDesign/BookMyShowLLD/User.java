@@ -1,4 +1,4 @@
-public class User{
+public class User implements  Observer{
     private String name;
     private int id;
     public  User(String name,int id){
@@ -12,4 +12,9 @@ public class User{
     public String getName(){
         return this.name;
     }
+    @Override
+    public void update(String message) {
+        System.out.println("Notification for " + name + ": " + message);
+    }
+
 }
