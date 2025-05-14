@@ -1,21 +1,36 @@
 public class FacadeClass {
     private Movie movieService ;
-    private  Theater theaterService;
     private Payment paymentService;
-    private Seat seatService;
+    private Notification notification;
 
-    public FacadeClass(Movie movieService, Payment paymentService, Seat seatService, Theater theaterService) {
-        this.movieService = movieService;
-        this.paymentService = paymentService;
-        this.seatService = seatService;
-        this.theaterService = theaterService;
+
+
+    public FacadeClass( Notification notification) {
+                this.notification = notification;
+
     }
-   public void BookTicket(Movie movie, Theater theater, Payment payment, Seat seat) {
-    System.out.println("Booking ticket for: " + movie.getmovieName());
-    System.out.println("In Theater: " + theater.getTheaterName());
-    payment.pay((int) movie.getPrice());
-    System.out.println("Seat booked: " + seat.getSeatType());
+   public void BookTicket(Movie movieService, Theater theaterService, Seat seat) {
+    this.movieService = movieService;
+    System.out.println("Booking ticket for: " + movieService.getmovieName());
+    System.out.println("In Theater: " + theaterService.getTheaterName());
+    System.out.println("Seat book for" + seat.getseatId());
+    
+    System.out.println("Choose mehtod to make payment of Rs"+ movieService.getPrice());
+}
+
+public void makePayment(Payment paymentService){
+    paymentService.pay(movieService.getPrice());      
+    System.out.println();  
+    notification.notifyAllObservers("Booking successful for " + movieService.getmovieName());
+
+
+
+}
+public void setPayment(Payment paymentService){
+    this.paymentService=paymentService;
+
 }
 
 
 }
+
