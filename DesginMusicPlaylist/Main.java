@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         Song song1 = new Song();
         song1.setSongName("Harry Potter Theme");
         song1.setArtistName("John Williams");
