@@ -3,7 +3,7 @@ public class Momentomain {
         Editor editor = new Editor();
         History history = new History();
 
-        editor.write("Hello, ");
+        editor.write("Hello, "); 
         history.save(editor.save()); // Save snapshot
 
         editor.write("World!");
