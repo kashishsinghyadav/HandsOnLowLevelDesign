@@ -1,4 +1,4 @@
-class UPIPayment implements PaymentStrategy {
+ class UPIPayment implements PaymentStrategy {
     private String upiId;
 
     public UPIPayment(String upiId) {
