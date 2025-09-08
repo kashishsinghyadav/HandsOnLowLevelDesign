@@ -1,4 +1,4 @@
-class PaymentContext {
+ class PaymentContext {
     private PaymentStrategy strategy;
 
     public PaymentContext(PaymentStrategy strategy) {
