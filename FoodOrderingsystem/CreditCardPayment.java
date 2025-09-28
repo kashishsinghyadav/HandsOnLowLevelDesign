@@ -1,4 +1,4 @@
- class CreditCardPayment implements PaymentStrategy {
+  class CreditCardPayment implements PaymentStrategy {
     private String cardNumber;
 
     public CreditCardPayment(String cardNumber) {
