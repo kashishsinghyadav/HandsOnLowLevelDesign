@@ -1,4 +1,4 @@
-class Restaurant {
+ class Restaurant {
     private String restaurantId;
     private String name;
     private String gstNumber;
