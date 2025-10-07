@@ -7,7 +7,7 @@ public class Song {
     public void setSongName(String songName) {
         this.songName = songName;
     } 
-
+ 
     public void setArtistName(String artistName) {
         this.artistName = artistName;
     }
