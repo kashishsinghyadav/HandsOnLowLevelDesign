@@ -5,7 +5,7 @@
         this.cardNumber = cardNumber;
     }
 
-    @Override
+    @Override 
     public void pay(double amount) {
         System.out.println("Paid ₹" + amount + " using Credit Card ending with " + cardNumber.substring(cardNumber.length() - 4));
     }
