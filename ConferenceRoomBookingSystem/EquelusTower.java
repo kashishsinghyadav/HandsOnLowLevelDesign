@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 public class EquelusTower implements Building{
-    public  List<Floor> floors;
+    public  List<Floor> floors; 
     public  String buildingName;
 
     public EquelusTower(String buildingName){
