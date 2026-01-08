@@ -5,7 +5,7 @@ public  class EquelusttowerFloor1 implements Floor{
     List<Room> roomList;
     public  int floorNumber;
     public EquelusttowerFloor1(int floorNumber){
-        roomList = new ArrayList<>();
+        roomList = new ArrayList<>(); 
         this.floorNumber = floorNumber;
     }
     @Override
