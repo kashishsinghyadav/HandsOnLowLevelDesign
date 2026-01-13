@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class BookingService {
+public class BookingService { 
 
     private List<Booking> bookingList = new ArrayList<>();
 
