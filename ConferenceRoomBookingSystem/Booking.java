@@ -1,4 +1,4 @@
- 
+  
 
 public class Booking {
     private final int starttime;
